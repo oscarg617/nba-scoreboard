@@ -54,6 +54,42 @@ def scoreboard_today():
 
     games_dicts = []
     games = res["scoreboard"]["games"]
+
+    # Example Scoreboard:
+    # games = [
+    #     {
+    #         "gameStatusText": "GAME SET MATCH OK",
+    #         "homeTeam": {
+    #             "teamTricode": "DEN",
+    #             "score": "90"
+
+    #         },
+    #         "awayTeam": {
+    #             "teamTricode": "MIN",
+    #             "score": "98"
+    #         },
+    #         "poRoundDesc": "WCSF",
+    #         "seriesGameNumber": "Game 7",
+    #         "seriesText": "MIN wins 4-3"
+    #     },
+    #     {
+    #         "gameStatusText": "GAME SET MATCH OK",
+    #         "homeTeam": {
+    #             "teamTricode": "NYK",
+    #             "score": "109"
+
+    #         },
+    #         "awayTeam": {
+    #             "teamTricode": "IND",
+    #             "score": "130"
+    #         },
+    #         "poRoundDesc": "ECSF",
+    #         "seriesGameNumber": "Game 7",
+    #         "seriesText": "IND wins 4-3"
+    #     }
+    # ]
+
+
     for game in games:
         gameStatusText = game["gameStatusText"]
         split = gameStatusText.split()
