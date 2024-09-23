@@ -1,0 +1,71 @@
+.game-card-container {
+    color:#cccccc;
+    background-color: #151515;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 20px;
+    /* padding-left: 4vw;
+    padding-right: 4vw; */
+    /* padding-bottom: 25px; */
+
+    .series-info {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        h3 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+    }
+    
+
+    .teams-container {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* border-color: gray;
+        border-width: 1px;
+        border-style: solid; */
+        border-top: gray 1px solid;
+        /* color: green; */
+        /* padding-left: 2vw;
+        padding-right: 2vw; */
+
+        .team-container {
+            margin-top: 0px;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            margin-left: 2vw;
+            margin-right: 2vw;
+
+            h2 {
+                font-size: 36px;
+                /* color: blue; */
+            }
+
+            h3 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .game-info {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 2vw;
+        margin-right: 2vw;
+
+        h4 {
+            font-size: 26px;
+        }
+    }
+}

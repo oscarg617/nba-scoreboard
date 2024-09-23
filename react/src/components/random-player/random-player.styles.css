@@ -1,0 +1,80 @@
+button {
+    font-size: 26px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    border-bottom: black 5pt solid;
+}
+
+.random-player-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-container {
+    border-radius: 50pt;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #111111;
+
+    .player-stats {
+        border-left: 1pt gray solid;
+        padding-left: 30pt;
+        margin-left: 50pt;
+        margin-right: 30pt;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+        .per-game-stats {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .percentages {
+            display: flex;
+            flex-wrap: wrap; 
+        }
+    }
+}
+
+.player-info {
+    margin-left: 30pt;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .player-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+}
+
+.text {
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+
+.team {
+
+    h1 {
+        color: #999999;
+
+    }
+}

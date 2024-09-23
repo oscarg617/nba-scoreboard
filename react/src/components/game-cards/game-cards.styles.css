@@ -1,0 +1,14 @@
+.game-cards-container {
+    /* padding-left: 4vw;
+    padding-right: 4vw; */
+    padding-bottom: 25px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    overflow: hidden;
+}

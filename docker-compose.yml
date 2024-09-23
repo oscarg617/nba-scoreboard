@@ -1,0 +1,15 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    image: scoreboard-server
+    ports:
+      - "5000:5000"
+  react:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    image: scoreboard-react
+    ports:
+      - "8080:8080"
